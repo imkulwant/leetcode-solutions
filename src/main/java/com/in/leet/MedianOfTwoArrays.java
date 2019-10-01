@@ -61,11 +61,11 @@ public class MedianOfTwoArrays {
 
 		}
 		Collections.sort(list);
-		
-		if(flag) {
+
+		if (flag) {
 			return 0;
 		}
-		
+
 		if (l % 2 == 0) {
 			Integer x = l / 2;
 			median = list.get(x) + list.get((x - 1));
@@ -77,4 +77,46 @@ public class MedianOfTwoArrays {
 		}
 
 	}
+
+	public static double findMedianOfArrays(int[] nums1, int[] nums2) {
+
+		if (nums1.length > nums2.length) {
+			return findMedianOfArrays(nums2, nums1);
+		}
+
+		int x = nums1.length;
+		int y = nums2.length;
+
+		int low = 0;
+		int high = x;
+
+		while (low <= high) {
+			int partX = (low + high) / 2;
+			int partY = ((x + y + 1) / 2) - partX;
+
+			int maxLeftX = (partX == 0) ? Integer.MIN_VALUE : nums1[partX - 1];
+			int minRightX = (partX == x) ? Integer.MAX_VALUE : nums1[partX];
+
+			int maxLeftY = (partY == 0) ? Integer.MIN_VALUE : nums2[partY - 1];
+			int minRightY = (partY == y) ? Integer.MAX_VALUE : nums2[partY];
+
+			if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
+				if ((x + y) % 2 == 0) {
+					return (Math.max(maxLeftX, maxLeftY) + Math.max(minRightX, minRightY)) / 2;
+				} else {
+					return (Math.max(maxLeftX, maxLeftY));
+				}
+			} else if (maxLeftX > minRightY) {
+				high = partX - 1;
+			} else {
+				low = partX + 1;
+			}
+		}
+
+		// Only we we can come here is if input arrays were not sorted. Throw in that
+		// scenario.
+		throw new IllegalArgumentException();
+
+	}
+
 }

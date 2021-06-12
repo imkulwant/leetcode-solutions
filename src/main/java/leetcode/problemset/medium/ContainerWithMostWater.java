@@ -20,6 +20,28 @@ public class ContainerWithMostWater {
         return maxArea;
     }
 
+    /**
+     * Linear time solution
+     * */
+    public int maxAreaTwoPointerSolution(int[] height) {
+        int maxArea = 0;
+        int leftPointer = 0;
+        int rightPointer = (height.length - 1);
+
+        while(leftPointer < rightPointer) {
+            int area = calculateArea(leftPointer, height[leftPointer], rightPointer, height[rightPointer]);
+            if (maxArea < area)
+                maxArea = area;
+
+            if(height[leftPointer] < height[rightPointer]) {
+                leftPointer+=1;
+            } else {
+                rightPointer-=1;
+            }
+        }
+        return maxArea;
+    }
+
     private int calculateArea(int xPosition, int xHeight, int yPosition, int yHeight) {
         int height = Math.min(xHeight, yHeight);
         int width = yPosition - xPosition;

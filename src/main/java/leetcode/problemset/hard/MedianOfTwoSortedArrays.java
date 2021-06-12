@@ -1,11 +1,11 @@
-package com.in.leet;
+package leetcode.problemset.hard;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class MedianOfTwoArrays {
+public class MedianOfTwoSortedArrays {
 
 	private static final Scanner scanner = new Scanner(System.in);
 

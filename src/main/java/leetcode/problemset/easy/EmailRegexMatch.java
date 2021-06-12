@@ -1,4 +1,4 @@
-package com.in.leet;
+package leetcode.problemset.easy;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.in.leet;
+package leetcode.problemset.easy;
 
 public class PalindromeCheck {
 	public static void main(String[] args) {

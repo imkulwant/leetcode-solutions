@@ -1,4 +1,4 @@
-package com.in.leet;
+package leetcode.problemset.datastructures.binarytree;
 
 import java.util.LinkedList;
 import java.util.Queue;

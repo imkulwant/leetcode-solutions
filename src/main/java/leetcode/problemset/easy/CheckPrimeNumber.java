@@ -1,6 +1,6 @@
-package com.in.leet;
+package leetcode.problemset.easy;
 
-public class CheckPrimeNum {
+public class CheckPrimeNumber {
 
 	public static void main(String[] args) {
 		/*

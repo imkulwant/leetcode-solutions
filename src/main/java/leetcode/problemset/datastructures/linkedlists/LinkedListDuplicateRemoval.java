@@ -1,4 +1,4 @@
-package com.in.leet.linkedlist;
+package leetcode.problemset.datastructures.linkedlists;
 
 class Node {
 	int data;

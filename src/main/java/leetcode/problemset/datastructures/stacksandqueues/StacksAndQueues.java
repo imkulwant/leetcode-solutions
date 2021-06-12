@@ -1,4 +1,4 @@
-package com.in.leet;
+package leetcode.problemset.datastructures.stacksandqueues;
 
 import java.util.LinkedList;
 import java.util.Queue;

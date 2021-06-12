@@ -1,4 +1,4 @@
-package com.in.leet;
+package leetcode.problemset.easy;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.in.leet;
+package leetcode.problemset.medium;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -21,7 +21,7 @@ import java.util.Scanner;
  * @author root
  *
  */
-public class LongestSubstring {
+public class LongestSubString {
 
 	private static final Scanner scanner = new Scanner(System.in);
 

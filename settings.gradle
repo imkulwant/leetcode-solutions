@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'leet-code'
+rootProject.name = 'leetcode-problemset-solutions'

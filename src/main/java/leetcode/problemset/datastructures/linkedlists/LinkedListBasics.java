@@ -2,7 +2,7 @@ package leetcode.problemset.datastructures.linkedlists;
 
 class Node {
 	int data;
-	Node next;
+	NodeObject next;
 
 	Node(int d) {
 		data = d;
@@ -12,10 +12,10 @@ class Node {
 
 public class LinkedListBasics {
 
-	public static Node insert(Node head, int data) {
+	public static NodeObject insert(NodeObject head, int data) {
 
-		Node n = new Node(data);
-		Node itr = head;
+		NodeObject n = new NodeObject(data);
+		NodeObject itr = head;
 		
 		if (head == null) {
 			return n;
@@ -30,8 +30,8 @@ public class LinkedListBasics {
 		}
 	}
 
-	public static void display(Node head) {
-		Node start = head;
+	public static void display(NodeObject head) {
+		NodeObject start = head;
 		while (start != null) {
 			System.out.print(start.data + " ");
 			start = start.next;
@@ -40,7 +40,7 @@ public class LinkedListBasics {
 
 	public static void main(String args[]) {
 
-		Node head = null;
+		NodeObject head = null;
 
 		int[] arr = { 2, 3, 4, 1 };
 

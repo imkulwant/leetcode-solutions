@@ -1,5 +1,8 @@
 package com.kulsin.leetcode.problemset.easy;
 
+/**
+ * <a href="https://leetcode.com/problems/remove-element/">...</a>
+ */
 public class RemoveElementFromArray {
 
     /**

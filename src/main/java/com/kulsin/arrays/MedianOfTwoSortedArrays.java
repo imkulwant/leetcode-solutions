@@ -3,7 +3,6 @@ package com.kulsin.arrays;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * 4. Median of Two Sorted Arrays

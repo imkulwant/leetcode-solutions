@@ -1,16 +1,15 @@
-package com.kulsin.easy;
+package com.kulsin.linkedlists;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static com.kulsin.easy.MergeTwoSortedLists.mergeTwoLists;
-
 class MergeTwoSortedListsTest {
+
+    MergeTwoSortedLists solution = new MergeTwoSortedLists();
 
     @Test
     void mergeTwoLists1() {
-
-        MergeTwoSortedLists.ListNode output = mergeTwoLists(list1(), list2());
+        MergeTwoSortedLists.ListNode output = solution.mergeTwoLists(list1(), list2());
 
         Assertions.assertEquals(expectedList(), output);
     }
@@ -48,5 +47,6 @@ class MergeTwoSortedListsTest {
 
         return e1;
     }
+
 
 }

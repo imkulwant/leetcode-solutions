@@ -1,4 +1,4 @@
-package com.kulsin.easy;
+package com.kulsin.linkedlists;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,15 +6,17 @@ import java.util.Objects;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
+ * 21. Merge Two Sorted Lists
+ * <p>
  * <a href="https://leetcode.com/problems/merge-two-sorted-lists/">...</a>
  */
-public class MergeTwoSortedLists {
+class MergeTwoSortedLists {
 
     /**
      * Runtime: 16 ms
      * Memory Usage: 45.4 MB
      */
-    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         List<Integer> combinedList = new CopyOnWriteArrayList<>();
 
@@ -56,7 +58,7 @@ public class MergeTwoSortedLists {
         }
     }
 
-    public static class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 

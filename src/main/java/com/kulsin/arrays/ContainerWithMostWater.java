@@ -1,13 +1,15 @@
-package com.kulsin.medium;
+package com.kulsin.arrays;
 
 /**
- * https://leetcode.com/problems/container-with-most-water/
+ * 11. Container With Most Water
+ * <p>
+ * <a href="https://leetcode.com/problems/container-with-most-water/">...</a>
  */
-public class ContainerWithMostWater {
+class ContainerWithMostWater {
 
     /**
      * Brute Force Solution - Though this solution fails, it gives TimeLimitExceeded.
-     * */
+     */
     public int maxArea(int[] height) {
         int maxArea = 0;
         for (int x = 0; x < height.length; x++) {
@@ -22,21 +24,21 @@ public class ContainerWithMostWater {
 
     /**
      * Linear time solution
-     * */
+     */
     public int maxAreaTwoPointerSolution(int[] height) {
         int maxArea = 0;
         int leftPointer = 0;
         int rightPointer = (height.length - 1);
 
-        while(leftPointer < rightPointer) {
+        while (leftPointer < rightPointer) {
             int area = calculateArea(leftPointer, height[leftPointer], rightPointer, height[rightPointer]);
             if (maxArea < area)
                 maxArea = area;
 
-            if(height[leftPointer] < height[rightPointer]) {
-                leftPointer+=1;
+            if (height[leftPointer] < height[rightPointer]) {
+                leftPointer += 1;
             } else {
-                rightPointer-=1;
+                rightPointer -= 1;
             }
         }
         return maxArea;

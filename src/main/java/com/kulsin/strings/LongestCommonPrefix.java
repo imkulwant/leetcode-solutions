@@ -1,12 +1,18 @@
-package com.kulsin.easy;
+package com.kulsin.strings;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/longest-common-prefix/
-public class LongestCommonPrefix {
+/**
+ * 14. Longest Common Prefix
+ * <p>
+ * <a href="https://leetcode.com/problems/longest-common-prefix">...</a>
+ */
+class LongestCommonPrefix {
 
-    // Runtime: 11 ms
-    // Memory Usage: 42.1 MB
+    /**
+     * Runtime: 11 ms
+     * Memory Usage: 42.1 MB
+     */
     public String longestCommonPrefix(String[] strs) {
 
         if (strs.length == 1) {

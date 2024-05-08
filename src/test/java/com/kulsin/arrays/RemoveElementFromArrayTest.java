@@ -1,22 +1,16 @@
-package com.kulsin.easy;
+package com.kulsin.arrays;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class RemoveElementFromArrayTest {
 
-    RemoveElementFromArray removeElementFromArray;
-
-    @BeforeEach
-    void setUp() {
-        removeElementFromArray = new RemoveElementFromArray();
-    }
+    RemoveElementFromArray removeElementFromArray = new RemoveElementFromArray();
 
     @Test
     void removeElement() {
         int val = 3;
         int[] nums = new int[]{3, 2, 2, 3};
-        int[] expectedNums = new int[]{2,2};
+        int[] expectedNums = new int[]{2, 2};
 
         int response = removeElementFromArray.removeElement(nums, val);
 
@@ -26,4 +20,5 @@ class RemoveElementFromArrayTest {
             assert nums[i] == expectedNums[i];
         }
     }
+
 }

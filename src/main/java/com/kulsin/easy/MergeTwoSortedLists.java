@@ -42,7 +42,7 @@ public class MergeTwoSortedLists {
 
     }
 
-    static ListNode makeListNode(List<Integer> list) {
+    private static ListNode makeListNode(List<Integer> list) {
         if (list.size() == 1) {
             return new ListNode(list.get(0));
         } else if (list.size() > 1) {
@@ -56,8 +56,7 @@ public class MergeTwoSortedLists {
         }
     }
 
-
-    static class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 

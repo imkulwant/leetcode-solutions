@@ -1,9 +1,11 @@
-package com.kulsin.easy;
+package com.kulsin.arrays;
 
 /**
- * <a href="https://leetcode.com/problems/remove-element/">...</a>
+ * 27. Remove Element
+ * <p>
+ * <a href="https://leetcode.com/problems/remove-element">...</a>
  */
-public class RemoveElementFromArray {
+class RemoveElementFromArray {
 
     /**
      * Runtime: 1 ms

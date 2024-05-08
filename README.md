@@ -6,6 +6,8 @@
 
 [14. Longest Common Prefix](src/main/java/com/kulsin/strings/LongestCommonPrefix.java)
 
+[20. Valid Parentheses](src/main/java/com/kulsin/strings/ValidParentheses.java)
+
 [21. Merge Two Sorted Lists](src/main/java/com/kulsin/linkedlists/MergeTwoSortedLists.java)
 
 [26. Remove Duplicates from Sorted Array](src/main/java/com/kulsin/arrays/RemoveDuplicatesFromSortedArray.java)

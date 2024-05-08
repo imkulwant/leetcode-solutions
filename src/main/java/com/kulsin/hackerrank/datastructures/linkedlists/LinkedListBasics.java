@@ -1,4 +1,4 @@
-package com.kulsin.datastructures.linkedlists;
+package com.kulsin.hackerrank.datastructures.linkedlists;
 
 class Node {
 	int data;

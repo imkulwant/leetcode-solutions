@@ -1,4 +1,4 @@
-package com.kulsin.datastructures.stacksandqueues;
+package com.kulsin.hackerrank.datastructures.stacksandqueues;
 
 import java.util.LinkedList;
 import java.util.Queue;

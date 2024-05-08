@@ -1,4 +1,4 @@
-package com.kulsin.datastructures.binarytree;
+package com.kulsin.hackerrank.datastructures.binarytree;
 
 import java.util.*;
 

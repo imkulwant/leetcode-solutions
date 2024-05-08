@@ -1,17 +1,11 @@
-package com.kulsin.easy;
+package com.kulsin.strings;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ValidParenthesesTest {
 
-    private ValidParentheses solution;
-
-    @BeforeEach
-    void setUp() {
-        solution = new ValidParentheses();
-    }
+    ValidParentheses solution = new ValidParentheses();
 
     @Test
     void isValidTest1() {

@@ -1,4 +1,4 @@
-package com.kulsin.sorting;
+package com.kulsin.hackerrank.sorting;
 
 import java.util.Arrays;
 import java.util.Comparator;

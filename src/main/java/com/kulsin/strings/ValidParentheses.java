@@ -1,13 +1,18 @@
-package com.kulsin.easy;
+package com.kulsin.strings;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/valid-parentheses/
-public class ValidParentheses {
+/**
+ * 20. Valid Parentheses
+ * <p>
+ * <a href="https://leetcode.com/problems/valid-parentheses">...</a>
+ */
+class ValidParentheses {
 
-//    Runtime: 4 ms, faster than 56.11% of Java online submissions for Valid Parentheses.
-//    Memory Usage: 42 MB, less than 47.84% of Java online submissions for Valid Parentheses.
-
+    /**
+     * Runtime: 4 ms
+     * Memory Usage: 42 MB
+     */
     public boolean isValid(
             // '(', ')', '{', '}', '[' and ']'
             String s
@@ -65,6 +70,7 @@ public class ValidParentheses {
 
             }
         }
+
         return stack.size() == 0;
     }
 

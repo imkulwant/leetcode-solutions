@@ -1,4 +1,4 @@
-package com.kulsin.sorting;
+package com.kulsin.hackerrank.sorting;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -1,15 +1,17 @@
-package com.kulsin.easy;
+package com.kulsin.arrays;
 
 import org.junit.jupiter.api.Test;
 
 class RemoveDuplicatesFromSortedArrayTest {
+
+    RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
 
     @Test
     void removeDuplicatesTestExampleOne() {
 
         int[] input = new int[]{1, 1, 2};
         int[] expectedArray = new int[]{1, 2};
-        int response = RemoveDuplicatesFromSortedArray.removeDuplicates(input);
+        int response = solution.removeDuplicates(input);
 
         assert response == 2;
 
@@ -24,7 +26,7 @@ class RemoveDuplicatesFromSortedArrayTest {
         int[] input = new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         int[] expectedArray = new int[]{0, 1, 2, 3, 4};
 
-        int response = RemoveDuplicatesFromSortedArray.removeDuplicates(input);
+        int response = solution.removeDuplicates(input);
 
         assert response == 5;
 

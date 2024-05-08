@@ -1,11 +1,16 @@
-package com.kulsin.easy;
+package com.kulsin.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 26. Remove Duplicates from Sorted Array
+ * <p>
+ * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array">...</a>
+ */
 public class RemoveDuplicatesFromSortedArray {
 
-    public static int removeDuplicates(int[] inputArray) {
+    public int removeDuplicates(int[] inputArray) {
 
         List<Integer> sortedList = new ArrayList<>();
         sortedList.add(inputArray[0]);
@@ -16,7 +21,7 @@ public class RemoveDuplicatesFromSortedArray {
             }
         }
 
-        for(int p = 0; p<sortedList.size();p++) {
+        for (int p = 0; p < sortedList.size(); p++) {
             inputArray[p] = sortedList.get(p);
         }
 

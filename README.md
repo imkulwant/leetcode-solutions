@@ -23,3 +23,5 @@
 [80. Remove Duplicates from Sorted Array II](src/main/java/com/kulsin/arrays/RemoveDuplicatesFromSortedArrayII.java)
 
 [88. Merge Sorted Array](src/main/java/com/kulsin/arrays/MergeSortedArray.java)
+
+[169. Majority Element](src/main/java/com/kulsin/arrays/MajorityElement.java)

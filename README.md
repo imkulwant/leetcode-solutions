@@ -25,3 +25,5 @@
 [88. Merge Sorted Array](src/main/java/com/kulsin/arrays/MergeSortedArray.java)
 
 [169. Majority Element](src/main/java/com/kulsin/arrays/MajorityElement.java)
+
+[189. Rotate Array](src/main/java/com/kulsin/arrays/RotateArray.java)

@@ -24,6 +24,8 @@
 
 [88. Merge Sorted Array](src/main/java/com/kulsin/arrays/MergeSortedArray.java)
 
+[121. Best Time to Buy and Sell Stock](src/main/java/com/kulsin/arrays/BestTimeToBuyAndSellStock.java)
+
 [169. Majority Element](src/main/java/com/kulsin/arrays/MajorityElement.java)
 
 [189. Rotate Array](src/main/java/com/kulsin/arrays/RotateArray.java)

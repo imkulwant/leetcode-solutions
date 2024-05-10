@@ -7,6 +7,10 @@ package com.kulsin.arrays;
  */
 public class BestTimeToBuyAndSellStock {
 
+    /**
+     * Runtime: 2ms
+     * Memory: 61.85MB
+     */
     public int maxProfit(int[] prices) {
 
         int minPrice = prices[0];

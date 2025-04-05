@@ -28,6 +28,8 @@
 
 [122. Best Time to Buy and Sell Stock II](src/main/java/com/kulsin/array/BestTimeToBuyAndSellStockII.java)
 
+[125. Valid Palindrome](src/main/java/com/kulsin/two_pointers/ValidPalindrome.java)
+
 [169. Majority Element](src/main/java/com/kulsin/array/MajorityElement.java)
 
 [189. Rotate Array](src/main/java/com/kulsin/array/RotateArray.java)

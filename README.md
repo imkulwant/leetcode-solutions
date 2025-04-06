@@ -34,6 +34,8 @@
 
 [189. Rotate Array](src/main/java/com/kulsin/array/RotateArray.java)
 
+[392. Is Subsequence](src/main/java/com/kulsin/two_pointers/IsSubsequence.java)
+
 # Miscellaneous Solutions
 
 [BubbleSort](src/main/java/com/kulsin/algorithms/BubbleSort.java)

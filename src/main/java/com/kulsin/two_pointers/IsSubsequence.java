@@ -37,4 +37,32 @@ class IsSubsequence {
         return false;
     }
 
+    /**
+     * Runtime: 2 ms
+     * Memory Usage: 41.39 MB
+     */
+    public boolean isSubsequenceV2(String s, String t) {
+
+        if (s.isEmpty()) return true;
+
+        if (t.isEmpty()) return false;
+
+        int sPos = 0, tPos = 0;
+
+        for (int i = 0; i < t.length(); i++) {
+            if (sPos == s.length()) {
+                break;
+            }
+            if (s.charAt(sPos) == t.charAt(i)) {
+                sPos++;
+            }
+        }
+
+        if (sPos == s.length()) {
+            return true;
+        }
+
+        return false;
+    }
+
 }
